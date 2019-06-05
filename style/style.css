@@ -1,0 +1,79 @@
+#header{
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 200px;
+}
+.header--left{
+
+}
+.header--left__h1{
+  font-size: 24px;
+  font-family: 'Exo 2', sans-serif;
+}
+.header--right{
+
+}
+.gnav{
+
+}
+.gnav--lists{
+  display:flex;
+}
+
+.gnav--list{
+  line-height: 24px;
+  font-size: 18px;
+  padding: 0 10px;
+  border-left: 1px solid #fff;
+}
+
+.gnav--list:first-child{
+  border: none;
+}
+
+.fab{
+  color: #fff;
+  font-size: 24px;
+  margin: 0 5px;
+}
+
+.gnav--list a{
+  color: white;
+  font-family: 'Exo 2', sans-serif;
+}
+
+
+#main{
+  width: 920px;
+  margin: 0 auto;
+  height: 920px;
+}
+
+.image--message{
+  margin: 75px 0;
+  display: flex;
+}
+
+.image--message__image{
+  border-radius: 50%;
+}
+
+.image--message__message{
+  margin: auto;
+  font-size: 20px;
+  font-weight: 200;
+}
+
+.marker span {
+  padding-bottom: .2em;
+  background: -webkit-linear-gradient(left, #fcd69e 50%, transparent 50%) 100% bottom / 200% 35% no-repeat;
+  background: linear-gradient(to right, #fcd69e 50%, transparent 50%) 100% bottom / 200% 35% no-repeat;
+  -webkit-transition: background-position .5s ease-out;
+  transition: background-position .5s ease-out;
+  line-height: 3em;
+}
+.marker:hover span {
+  background-position: 0% bottom;
+}
