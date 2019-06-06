@@ -33,7 +33,7 @@
   border: none;
 }
 
-.fab{
+.gnav--lists .fab{
   color: #fff;
   font-size: 24px;
   margin: 0 5px;
@@ -54,6 +54,8 @@
   color: #333;
   font-size: 3em;
   margin-bottom: 20px;
+  font-weight: 100;
+  letter-spacing: 4px;
 }
 
 .image--message{
@@ -118,13 +120,41 @@
   margin: 30px auto;
 }
 
-.skill--container{
+.works--container{
   padding: 75px 0;
 }
 
-#skill{
+#works{
   text-align: center;
   color: #333;
   font-size: 3em;
   margin-bottom: 20px;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+.works--content{
+}
+
+.works--content ul li{
+  list-style: none;
+}
+
+.portfolio-img{
+  height: 300px;
+}
+
+.mercari,.mooovi,.bbs{
+  margin: 50px;
+  display: flex;
+}
+
+.chat-space,.pictweet{
+  margin: 40px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.works__text{
+  margin: 0 auto;
 }
