@@ -133,28 +133,138 @@
   letter-spacing: 4px;
 }
 
-.works--content{
-}
-
-.works--content ul li{
-  list-style: none;
-}
-
 .portfolio-img{
-  height: 300px;
+  height: 250px;
 }
 
 .mercari,.mooovi,.bbs{
-  margin: 50px;
+  margin: 50px 0;
   display: flex;
 }
 
 .chat-space,.pictweet{
-  margin: 40px;
+  margin: 50px 0;
   display: flex;
   flex-direction: row-reverse;
 }
 
 .works__text{
-  margin: 0 auto;
+  margin: auto;
+}
+
+.works__text h4{
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.works__text p{
+  line-height: 2em;
+}
+
+#contact{
+  text-align: center;
+  color: #333;
+  font-size: 3em;
+  margin-bottom: 20px;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+.contact-icon{
+  display: flex;
+  justify-content: center;
+}
+
+.contact-icon a{
+  margin: 0 15px;
+}
+.contact-icon img {
+  height: 75px;
+  border-radius: 50%;
+  display: block;
+}
+
+.mail-contact{
+  text-align: center;
+  color: #333;
+  font-size: 1.5em;
+  margin: 30px 0 5px 0;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+.sns-contact{
+  text-align: center;
+  color: #333;
+  font-size: 1em;
+  margin: 30px 15px 15px;
+  font-weight: 100;
+  letter-spacing: 4px;
+}
+
+.form-content{
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.contact--container p{
+  font-weight: 100;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.form-label{
+  display: block;
+  width: 200px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 200;
+  background-color: #d3d3d3;
+  padding: 10px;
+  margin: 5px 10px 5px 5px;
+  text-align: center;
+  border-radius: 10px;
+}
+.form-clabel{
+  line-height: 7.5em;
+}
+
+.form-input{
+  width: 600px;
+  font-size: 1.2em;
+  font-weight: 100;
+  border-radius: 10px;
+}
+
+.form-submit{
+  border-radius: 10px;
+  display: block;
+  width: 300px;
+  text-align: center;
+  font-size: 1.2em;
+  font-weight: 200;
+  background: #668ad8;
+  border-bottom: solid 4px #627295;
+  padding: 10px;
+  margin: 50px auto;
+}
+
+.btn-square:active {
+  /*ボタンを押したとき*/
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);/*下に動く*/
+  border-bottom: none;/*線を消す*/
+}
+
+#footer{
+  background-color: #000;
+  height: 3em;
+  color: #fff;
+}
+
+#footer p{
+  text-align: center;
+  line-height: 3em;
 }

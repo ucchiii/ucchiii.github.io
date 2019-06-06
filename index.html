@@ -19,7 +19,7 @@
         <nav class="gnav">
           <ul  class="gnav--lists">
             <li class="gnav--list"><a href="#about">About</a></li>
-            <li class="gnav--list"><a href="#work">Works</a></li>
+            <li class="gnav--list"><a href="#works">Works</a></li>
             <li class="gnav--list"><a href="#contact">Contact</a></li>
             <li><a href="https://twitter.com/_ucchi_" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
             <li><a href="https://github.com/ucchiii" target="_blank"><i class="fab fa-github-square"></i></a></li>
@@ -60,45 +60,93 @@
         <h2 id="works">Works</h2>
         <div class="works--content">
           <div class="mercari">
-            <img class="portfolio-img" src="image/mercari.png">
+            <a href="http://13.112.45.101/" target="_blank">
+              <img class="portfolio-img" src="image/mercari.png">
+            </a>
             <div class="works__text">
               <h4>メルカリ模倣アプリ</h4>
-              <p></p>
+              <p>Ruby・Ruby on Rails / JS・jQuery / HTML・CSS</p>
+              <p>チームでメルカリの模倣アプリを作成しました。<br>
+                URL：http://13.112.45.101/<br>
+                ID：mercari<br>
+                Pass：teama<br>
+                Github：https://github.com/ucchiii/freemarket_sample_50a1
+              </p>
             </div>
           </div>
           <div class="chat-space">
-            <img class="portfolio-img" src="image/chat-space.png">
+            <a href="http://13.112.45.101/" target="_blank">
+              <img class="portfolio-img" src="image/chat-space.png">
+            </a>
             <div class="works__text">
                 <h4>チャットアプリ</h4>
-                <p></p>
+                <p>Ruby・Ruby on Rails / JS・jQuery / HTML・CSS</p>
+                <p>グループでチャットができるアプリケーション<br>
+                  URL：http://54.250.216.74/<br>
+                  Github：https://github.com/ucchiii/chat-space1
+                </p>
             </div>
           </div>
           <div class="mooovi">
             <img class="portfolio-img" src="image/mooovi.png">
             <div class="works__text">
                 <h4>スクレイピングを利用したアプリ</h4>
-                <p></p>
+                <p>Ruby・Ruby on Rails / JS・jQuery / HTML・CSS</p>
+                <p>スクレイピングでデータを取得したアプリケーション</p>
             </div>
           </div>
           <div class="pictweet">
             <img class="portfolio-img" src="image/pictweet.png">
             <div class="works__text">
                 <h4>画像ツイートアプリ</h4>
-                <p></p>
+                <p>Ruby・Ruby on Rails / JS・jQuery / HTML・CSS</p>
+                <p>画像メインのツイートアプリケーション</p>
             </div>
           </div>
           <div class="bbs">
             <img class="portfolio-img" src="image/bbs.png">
             <div class="works__text">
                 <h4>一行掲示板アプリ</h4>
-                <p></p>
+                <p>PHP・Laravel / Bootstrap / HTML・CSS</p>
+                <p>一行の文字を投稿できるアプリケーション</p>
             </div>
           </div>
         </div>
       </div>
+      <div class="contact--container">
+        <h2 id="contact">Contact</h2>
+        <h5 class="mail-contact">メールでお問い合わせ</h5>
+        <p><small>※Google フォームを利用しております</small></p>
+        <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSfH6W0NdwwMAeAK28_LnwrwwvMahd7hYbFnoOeQl1iaqcO8KA/formResponse">
+          <div class="form-content">
+            <label class="form-label" for="name">お名前</label>
+            <input class="form-input" id="name" type="text" name="entry.159646326" required/><br>
+          </div>
+          <div class="form-content">
+            <label class="form-label" for="email">メールアドレス</label>
+            <input class="form-input" id="email" type="text" name="emailAddress" placeholder="example@mail.co.jp" required/><br>
+          </div>
+          <div class="form-content">
+            <label class="form-label form-clabel" for="msg">お問い合わせ内容</label>
+            <textarea class="form-input" id="msg" name="entry.1383401708" placeholder="お気軽にお問い合わせください。" rows="5" required/></textarea><br>
+          </div>
+          <input class="form-submit" type="submit" name="button" value="送信"></button>
+        </form>
+        <h5 class="sns-contact">Twitter・Wantedlyでのお問い合わせ</h5>
+        <div class="contact-icon">
+          <a href="https://twitter.com/_ucchi_" target="_blank">
+            <img src="http://www.mark-sign.net/download01/data02/twitter.png">
+          </a>
+          <a href="https://www.wantedly.com/users/93058481">
+            <img src="https://d2v9k5u4v94ulw.cloudfront.net/assets/images/346/original/2e2bf254-efc6-4b96-93a9-78668de17b3e?1534906569" target="_blank">
+          </a>
+        </div>
+      </div>
     </div>
     <div id="footer">
-
+      <p>Ryo Uchida | Portfolio 2019</p>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
   </body>
 </html>
